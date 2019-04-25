@@ -17,7 +17,7 @@ RUN cpanm Switch \
 	  Sort::Key::Natural  
 
 RUN git clone https://github.com/jkimlab/GMASS \
-	  && cd GMASS
+	  && cd GMASS \
 	  && perl setup.pl install
 
 
