@@ -10,8 +10,9 @@ RUN apt-get install -y \
 	  gcc \
 	  g++ \
 	  make \
-	  zlib1g-dev 
-
+	  zlib1g-dev \
+	  vim
+	
 RUN cpanm Switch \
 	  Parallel::ForkManager \
 	  Sort::Key::Natural  
